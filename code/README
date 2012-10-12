@@ -1,0 +1,9 @@
+Please ensure these environment variables are set and Matlab is installed (R2011a is suggested)
+Then run make command
+
+export PATH=$PATH:/usr/local/MATLAB/R2011a/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/MATLAB/R2011a/bin/glnxa64:/usr/local/MATLAB/R2011a/sys/os/glnxa64
+
+If make fails and gives errors, try this:
+Then go to MATLAB and do this:
+mex -f /usr/local/MATLAB/R2011a/bin/engopts.sh /home/amogh/git_projects/libsvm-errorcode/automatedFasterTry/code/computeSpanMatlabEng.cpp
