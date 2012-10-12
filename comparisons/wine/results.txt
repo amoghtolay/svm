@@ -1,6 +1,0 @@
-The final obtained values after grid-search on c and gamma are as follows:
-For one-vs-one: C= 512.0  Gamma =  0.015625 with max Cross efficiency =  1.982659
-For one-vs-all: C= 128.0  Gamma =  0.03125 with max Cross efficiency =  2.006045
-For dense: C= 128.0  Gamma =  0.03125 with max Cross efficiency =  2.004058
-For sparse: C= 512.0  Gamma =  0.015625 with max Cross efficiency =  1.979712
-
