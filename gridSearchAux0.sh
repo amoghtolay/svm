@@ -15,14 +15,13 @@
 ########################################################################
 
 #Change these values
-trainingFileName='dna.scale'
-testingFileName='dna.scale.t'
-modelFileNamePrefix='dna.scale.model.'
-outputFileNamePrefix='dna.scale-out.'
-scaleRangeFile='../rangeDNA'
-folderName='dna'
+trainingFileName='digit'
+testingFileName='digit.t'
+modelFileNamePrefix='digit.temp.'
+outputFileNamePrefix='digit.temp-out.'
+scaleRangeFile='../rangeDigit'
+folderName='digitTemp'
 #changes till here only
-
 
 fileNameMethod='vsone'
 modelFileName=${modelFileNamePrefix}${fileNameMethod}

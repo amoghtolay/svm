@@ -109,7 +109,7 @@ counter = 0
 
 process = subprocess.Popen(['./gridSearchAux1.sh'])
 if process.wait() != 0:
-			print "There were some errors"
+	print "There were some errors"
 
 
 
